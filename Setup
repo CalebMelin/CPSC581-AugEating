@@ -1,0 +1,57 @@
+For the team:
+
+You will need platformIO. Download it as an extention, then select "Add/select folder" in the platformIO, and add this folder. It has an orange alien head as its logo.
+
+Our main code is in scr/main.cpp. This is where we will be putting all of our code.
+
+
+To check your code, click the checkmark on the platformIO toolbar (Bottom of the VScode IDE. It's blue for me), to build your code. This will show any errors.
+    - DO THIS BEFORE UPLOADING! If there is an error and you upload, it could break the board.
+
+To upload, use USB to USBC cord and plug in the Arduino. YOu will then select the arrow pointing rigtht on the PlatformIO toolbar. This will upload the code, and the arduino will now run it when powered.
+
+To see prints/use the terminal, select the platformIO: serial monitor button. It looks like a plug in. This will show anything we decide to use Serial.print for, good for debugging and other things (while board is connected)
+
+If you want to run this code WITHOUT the board, there is unfortunately not much we can do about that. There ARE Simulators, but from my search they arn't the most reliable. 
+    - That being said, Tinkercad (nice) has a simulator to play around with that could work for testing small parts of code 
+    - https://www.tinkercad.com/things/dEOWWJatCtv-arduino-simulator
+
+
+We were provided (and have to give back):
+
+    - Arduino Nano Board
+
+    - MPU6050 -> 6-Axis Accelerometer -> https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/
+
+    - Pressure Sensor -> Not exactly this model but similar -> https://tinkersphere.com/sensors/1256-fsr-force-sensor-pressure-sensor-arduino-compatible.html
+
+    - HW-017  -> Capacitive Touch Sensor -> https://www.optimusdigital.ro/en/touch-sensors/136-hw-017-capacitive-touch-sensor-breakout.html
+
+    - Vibration Motor -> Small and simple to use
+
+    - About 4 wires
+
+    - A few rouge pins
+
+
+JJ Has:
+    - Extra Arduino Nanos
+
+    - Breadboard(s)
+
+    - Mulicolour LED lights
+
+    - Pinlights
+
+    - Power switches
+
+    - Battery packs
+
+    - many more wires
+
+    - many more pins
+
+    - lots of other stuff probably
+
+
+Sky is the limit for this project! Anything we can't implement, we can wizard-of-oz. 
